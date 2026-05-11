@@ -15,7 +15,6 @@ body{
   color: white;
 }
 
-/* TOPO */
 
 .topbar{
   width: 100%;
@@ -76,7 +75,7 @@ nav .active{
   border-bottom: 2px solid #1a9fff;
 }
 
-/* DIREITA */
+
 
 .right-nav{
   display: flex;
@@ -101,7 +100,7 @@ nav .active{
   cursor: pointer;
 }
 
-/* CONTAINER */
+
 
 .support-container{
   width: 850px;
@@ -125,7 +124,7 @@ nav .active{
   margin-bottom: 28px;
 }
 
-/* LOGIN BOX */
+
 
 .login-box{
   background: rgba(16, 29, 45, 0.95);
@@ -183,7 +182,6 @@ nav .active{
   cursor: pointer;
 }
 
-/* SECTION */
 
 .section-title{
   color: #67c1f5;
@@ -194,7 +192,7 @@ nav .active{
   margin-bottom: 16px;
 }
 
-/* LISTAS */
+
 
 .support-list{
   display: flex;
@@ -246,7 +244,7 @@ nav .active{
   font-size: 18px;
 }
 
-/* CATEGORIAS */
+
 
 .categories{
   display: flex;
@@ -278,7 +276,6 @@ nav .active{
   font-size: 22px;
 }
 
-/* RESPONSIVO */
 
 @media(max-width: 1000px){
 
