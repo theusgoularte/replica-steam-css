@@ -8,7 +8,6 @@
 body{
   min-height: 100vh;
   background: #1b1b1b;
-
   color: white;
 }
 
@@ -31,6 +30,8 @@ body{
   gap: 45px;
 }
 
+/* LOGO */
+
 .logo{
   display: flex;
   align-items: center;
@@ -39,7 +40,9 @@ body{
 
 .logo img{
   width: 42px;
-  filter: brightness(0) invert(1);
+  height: 42px;
+
+  object-fit: contain;
 }
 
 .logo span{
@@ -47,6 +50,8 @@ body{
   font-weight: 700;
   letter-spacing: 2px;
 }
+
+/* NAV */
 
 nav{
   display: flex;
@@ -67,6 +72,8 @@ nav a:hover{
 nav .active{
   color: #66c0f4;
 }
+
+/* RIGHT NAV */
 
 .right-nav{
   display: flex;
@@ -90,6 +97,8 @@ nav .active{
 
   cursor: pointer;
 }
+
+/* SUBNAV */
 
 .subnav{
   height: 70px;
@@ -117,6 +126,8 @@ nav .active{
   text-decoration: none;
   font-size: 14px;
 }
+
+/* SEARCH */
 
 .search-box{
   display: flex;
@@ -147,6 +158,8 @@ nav .active{
   cursor: pointer;
 }
 
+/* MAIN */
+
 .main-content{
   width: 100%;
   min-height: calc(100vh - 160px);
@@ -158,8 +171,11 @@ nav .active{
   padding-top: 80px;
 }
 
+/* LOGIN CARD */
+
 .login-card{
   width: 950px;
+
   background: rgba(18, 26, 37, 0.96);
 
   padding: 40px;
@@ -183,6 +199,7 @@ nav .active{
 
 .login-left label{
   display: block;
+
   color: #66c0f4;
 
   font-size: 12px;
@@ -206,6 +223,8 @@ nav .active{
   padding: 0 12px;
 }
 
+/* REMEMBER */
+
 .remember{
   margin-top: 18px;
 
@@ -216,6 +235,8 @@ nav .active{
   color: #afafaf;
   font-size: 14px;
 }
+
+/* LOGIN BUTTON */
 
 .login-btn{
   margin-top: 30px;
@@ -238,6 +259,8 @@ nav .active{
   cursor: pointer;
 }
 
+/* HELP LINK */
+
 .help-link{
   display: block;
   margin-top: 20px;
@@ -246,6 +269,8 @@ nav .active{
   text-decoration: none;
   font-size: 14px;
 }
+
+/* RIGHT SIDE */
 
 .login-right{
   width: 32%;
@@ -257,6 +282,8 @@ nav .active{
   font-size: 14px;
   margin-bottom: 20px;
 }
+
+/* QR */
 
 .qr-box{
   width: 210px;
@@ -285,6 +312,8 @@ nav .active{
 
   font-size: 14px;
 }
+
+/* REGISTER */
 
 .bottom-register{
   margin-top: 60px;
@@ -321,6 +350,8 @@ nav .active{
   font-size: 14px;
   line-height: 1.5;
 }
+
+/* RESPONSIVO */
 
 @media(max-width: 1000px){
 

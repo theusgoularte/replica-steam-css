@@ -44,7 +44,6 @@ body{
 
 .logo img{
   width: 42px;
-  filter: brightness(0) invert(1);
 }
 
 .logo span{
@@ -171,9 +170,13 @@ nav .active{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 120px;
 
-  padding: 60px;
+  gap: 80px;
+
+  padding: 60px 100px;
+
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .hero-left{
@@ -190,7 +193,9 @@ nav .active{
 
 .steam-title img{
   width: 90px;
-  filter: brightness(0) invert(1);
+  height: 90px;
+
+  object-fit: contain;
 }
 
 .steam-title h1{
